@@ -84,6 +84,7 @@
     <Compile Include="BallNose.cs" />
     <Compile Include="BullNose.cs" />
     <Compile Include="Conic.cs" />
+    <Compile Include="Controller.cs" />
     <Compile Include="Drill.cs" />
     <Compile Include="EndMill.cs" />
     <Compile Include="Engrave.cs" />

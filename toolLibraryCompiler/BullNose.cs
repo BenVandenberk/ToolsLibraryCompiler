@@ -8,6 +8,7 @@ namespace toolLibraryCompiler
 {
     class BullNose : Tool
     {
+        
         public decimal Height1 { get; set; }
         public decimal Height2 { get; set; }
 
@@ -16,7 +17,7 @@ namespace toolLibraryCompiler
             this.Height1 = height1;
             this.Height2 = height2;
         }
-
+        
         public override string ToString()
         {
             return base.ToString() + Environment.NewLine + 

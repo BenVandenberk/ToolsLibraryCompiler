@@ -17,12 +17,13 @@ namespace toolLibraryCompiler
         public bool CanEngrave { get; set; }
 
 
-        public Tool(string name, string type, decimal width1)
+        public Tool(string name, string type, decimal width1, string units)
         {
             this.Name = name;
             this.Type = type;
             this.Width1 = width1;
             this.Description = name;
+            this.Units = units;
 
             switch (type)
             {

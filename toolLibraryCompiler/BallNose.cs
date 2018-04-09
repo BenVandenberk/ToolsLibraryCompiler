@@ -10,7 +10,7 @@ namespace toolLibraryCompiler
     {
         public decimal Height1 { get; set; }
 
-        public BallNose(string name, string type, decimal width1, decimal height1) : base(name, type, width1)
+        public BallNose(string name, string type, string units, decimal width1, decimal height1) : base(name, type, units, width1)
         {
             this.Height1 = height1;            
         }
