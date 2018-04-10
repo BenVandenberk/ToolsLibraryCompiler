@@ -17,30 +17,6 @@ namespace toolLibraryCompiler.Tools
             this.Width1 = width1;
             this.Description = name;
             this.Units = units;
-
-            switch (type)
-            {
-                case "EndMill":
-                    this.CanEngrave = false;
-                    this.Color = 16711680;
-                    break;
-                case "Engrave":
-                    this.CanEngrave = true;
-                    this.Color = 128;
-                    break;
-                case "Engrave2":
-                    this.CanEngrave = true;
-                    this.Color = 255;
-                    break;
-                case "Spherical":
-                    this.CanEngrave = true;
-                    this.Color = 32896;
-                    break;
-                case "Taper":
-                    this.CanEngrave = true;
-                    this.Color = 16776960;
-                    break;
-            }
         }
 
        

@@ -1,4 +1,4 @@
 .vs/
-bin/
-obj/
+toolLibraryCompiler/bin/
+toolLibraryCompiler/obj/
 *.csproj
