@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
     class Taper : AngularTool
     {
+        public static readonly bool CAN_ENGRAVE = true;
+        public static readonly int COLOR = 16776960;
         public decimal Width2 { get; set; }
         public decimal Height1 { get; set; }
 

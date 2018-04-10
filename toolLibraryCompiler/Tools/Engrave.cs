@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
     class Engrave : AngularTool
     {
+        public static readonly bool CAN_ENGRAVE = true;
+        public static readonly int COLOR = 128;
         public decimal G {get;set;}
         public decimal R { get; set; }
         public decimal B { get; set; }

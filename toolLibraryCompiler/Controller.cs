@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using toolLibraryCompiler.Tools;
 
 namespace toolLibraryCompiler
 {
@@ -30,10 +31,11 @@ namespace toolLibraryCompiler
             foreach(DataRow row in ActiveTable.Rows)
             {
                 string type = row.Field<string>("ToolType");
+                Tool currentTool;
                 switch (type)
                 {
                     case "BallNose":
-                        BallNose ballnose = new BallNose(row.Field<string>("Name"), row.Field<string>("ToolType"), row.Field<string>("Units"), row.Field<string>("D1"), row.Field<string>("ToolType"))
+                        currentTool = new BallNose(row.Field<string>("Name"), row.Field<string>("ToolType"), row.Field<string>("Units"), row.Field<string>("D1"), row.Field<string>("ToolType"))
                         break;
                     case "BullNose":
                         break;

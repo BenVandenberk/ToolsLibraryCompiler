@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
     class EndMill : Tool
     {
+        public static readonly bool CAN_ENGRAVE = false;
+        public static readonly int COLOR = 16711680;
         public decimal Height1 { get; set; }
 
         public EndMill(string name, string type, decimal width1, decimal height1) : base(name, type, width1)

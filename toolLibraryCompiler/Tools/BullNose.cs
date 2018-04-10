@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
     class BullNose : Tool
     {
-        
+        public static readonly bool CAN_ENGRAVE = false;
+        public static readonly int COLOR = 8421376;
+
         public decimal Height1 { get; set; }
         public decimal Height2 { get; set; }
 

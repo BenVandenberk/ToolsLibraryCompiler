@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
-    class BallNose : Tool
+    public class BallNose : Tool
     {
+        public static readonly bool CAN_ENGRAVE = true;
+        public static readonly int COLOR = 16776960;
+
         public decimal Height1 { get; set; }
 
         public BallNose(string name, string type, string units, decimal width1, decimal height1) : base(name, type, width1, units)

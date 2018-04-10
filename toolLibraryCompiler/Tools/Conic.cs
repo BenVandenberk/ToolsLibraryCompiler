@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace toolLibraryCompiler
+namespace toolLibraryCompiler.Tools
 {
     class Conic : AngularTool
     {
+        public static readonly bool CAN_ENGRAVE = true;
+        public static readonly int COLOR = 32768;
+
         public decimal Height1 { get; set; }
         public decimal Height2 { get; set; }
 
