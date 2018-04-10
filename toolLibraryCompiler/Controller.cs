@@ -8,9 +8,8 @@ using toolLibraryCompiler.Tools;
 
 namespace toolLibraryCompiler
 {
-    class Controller
+    public class Controller
     {
-        private List<Tool> Tools = new List<Tool>();
         private DataSet ToolSet;
         private DataTable ActiveTable;
 
