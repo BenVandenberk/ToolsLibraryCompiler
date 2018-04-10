@@ -18,6 +18,10 @@ namespace toolLibraryCompiler.Tools
             this.B = b;
         }
 
+        public Engrave() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString()+ Environment.NewLine+

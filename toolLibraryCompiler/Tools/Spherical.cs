@@ -18,6 +18,10 @@ namespace toolLibraryCompiler.Tools
             this.Height2 = height2;
         }
 
+        public Spherical() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString() + Environment.NewLine+

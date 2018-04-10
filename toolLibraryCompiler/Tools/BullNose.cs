@@ -15,6 +15,10 @@ namespace toolLibraryCompiler.Tools
             this.Height1 = height1;
             this.Height2 = height2;
         }
+
+        public BullNose() {
+            
+        }
         
         public override string ToString()
         {

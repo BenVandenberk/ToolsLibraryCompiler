@@ -16,6 +16,10 @@ namespace toolLibraryCompiler.Tools
             this.Height1 = height1;
         }
 
+        public Taper() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString() + Environment.NewLine+

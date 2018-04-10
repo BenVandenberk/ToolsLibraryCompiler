@@ -14,6 +14,10 @@ namespace toolLibraryCompiler.Tools
             this.Width2 = width2;
         }
 
+        public Engrave2() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString() + Environment.NewLine + 

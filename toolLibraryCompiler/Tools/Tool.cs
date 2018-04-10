@@ -19,6 +19,10 @@ namespace toolLibraryCompiler.Tools
             this.Units = units;
         }
 
+        public Tool() {
+            
+        }
+
         public override string ToString()
         {
             return $"[{this.Name}]{Environment.NewLine} " +

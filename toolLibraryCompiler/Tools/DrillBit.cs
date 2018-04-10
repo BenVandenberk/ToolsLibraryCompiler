@@ -16,6 +16,10 @@ namespace toolLibraryCompiler.Tools
             this.Height2 = height2;
         }
 
+        public DrillBit() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString()+ Environment.NewLine +

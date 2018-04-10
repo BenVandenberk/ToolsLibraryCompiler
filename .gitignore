@@ -2,3 +2,6 @@
 toolLibraryCompiler/bin/
 toolLibraryCompiler/obj/
 *.csproj
+*.user
+*.sln
+toolLibraryCompiler/Properties/

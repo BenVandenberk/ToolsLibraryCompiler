@@ -16,6 +16,10 @@ namespace toolLibraryCompiler.Tools
             this.Height2 = height2;
         }
 
+        public Conic() {
+            
+        }
+
         public override string ToString()
         {
             return base.ToString()+ Environment.NewLine+
