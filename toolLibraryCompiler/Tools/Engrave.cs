@@ -2,15 +2,16 @@
 
 namespace toolLibraryCompiler.Tools
 {
-    class Engrave : AngularTool
+    public class Engrave : AngularTool
     {
         public static readonly bool CAN_ENGRAVE = true;
         public static readonly int COLOR = 128;
-        public decimal G {get;set;}
-        public decimal R { get; set; }
-        public decimal B { get; set; }
 
-        public Engrave(string name, string type, decimal width1, decimal angle, decimal g, decimal r, decimal b) : base(name, type, width1, angle)
+        public double G {get;set;}
+        public double R { get; set; }
+        public double B { get; set; }
+
+        public Engrave(string name, ToolType type, double width1, Unit units, double angle, double g, double r, double b) : base(name, type, width1, units, angle)
         {
             this.G = g;
             this.R = r;

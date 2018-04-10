@@ -7,9 +7,9 @@ namespace toolLibraryCompiler.Tools
         public static readonly bool CAN_ENGRAVE = true;
         public static readonly int COLOR = 16776960;
 
-        public decimal Height1 { get; set; }
+        public double Height1 { get; set; }
 
-        public BallNose(string name, string type, string units, decimal width1, decimal height1) : base(name, type, width1, units)
+        public BallNose(string name, ToolType type, double width1, Unit units, double height1) : base(name, type, width1, units)
         {
             this.Height1 = height1;            
         }

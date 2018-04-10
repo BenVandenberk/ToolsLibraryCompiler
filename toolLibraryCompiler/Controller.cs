@@ -35,7 +35,7 @@ namespace toolLibraryCompiler
                 switch (type)
                 {
                     case "BallNose":
-                        currentTool = new BallNose(row.Field<string>("Name"), row.Field<string>("ToolType"), row.Field<string>("Units"), row.Field<string>("D1"), row.Field<string>("ToolType"))
+                        //currentTool = new BallNose(row.Field<string>("Name"), row.Field<string>("ToolType"), row.Field<string>("Units"), row.Field<string>("D1"), row.Field<string>("ToolType"))
                         break;
                     case "BullNose":
                         break;
@@ -55,6 +55,8 @@ namespace toolLibraryCompiler
                         break;
                 }
             }
+
+            return "";
         }
     }
 }

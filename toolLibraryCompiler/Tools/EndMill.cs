@@ -2,13 +2,14 @@
 
 namespace toolLibraryCompiler.Tools
 {
-    class EndMill : Tool
+    public class EndMill : Tool
     {
         public static readonly bool CAN_ENGRAVE = false;
         public static readonly int COLOR = 16711680;
-        public decimal Height1 { get; set; }
 
-        public EndMill(string name, string type, decimal width1, decimal height1) : base(name, type, width1)
+        public double Height1 { get; set; }
+
+        public EndMill(string name, ToolType type, double width1, Unit units, double height1) : base(name, type, width1, units)
         {
             this.Height1 = height1;
         }

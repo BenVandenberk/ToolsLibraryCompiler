@@ -2,11 +2,11 @@
 
 namespace toolLibraryCompiler.Tools
 {
-    class AngularTool : Tool
+    public class AngularTool : Tool
     {
-        public decimal Angle { get; set; }
+        public double Angle { get; set; }
 
-        public AngularTool(string name, string type, decimal width1, decimal angle) : base(name, type, width1)
+        public AngularTool(string name, ToolType type, double width1, Unit units, double angle) : base(name, type, width1, units)
         {
             this.Angle = angle;
         }

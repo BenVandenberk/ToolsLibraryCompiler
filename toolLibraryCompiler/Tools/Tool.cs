@@ -6,11 +6,11 @@ namespace toolLibraryCompiler.Tools
     {
         public string Name { get; set; }
         public ToolType Type { get; set; }
-        public decimal Width1 { get; set; }
+        public double Width1 { get; set; }
         public string Description { get; set; }
-        public string Units { get; set; }
+        public Unit Units { get; set; }
 
-        public Tool(string name, string type, decimal width1, string units)
+        public Tool(string name, ToolType type, double width1, Unit units)
         {
             this.Name = name;
             this.Type = type;
@@ -19,16 +19,12 @@ namespace toolLibraryCompiler.Tools
             this.Units = units;
         }
 
-       
-
         public override string ToString()
         {
             return $"[{this.Name}]{Environment.NewLine} " +
                 $"Description={this.Description}{Environment.NewLine}" +
                 $"D1={this.Width1}{Environment.NewLine}" +
                 $"Units=su{this.Units}{Environment.NewLine}" +
-                $"Color={this.Color}{Environment.NewLine}" + 
-                $"Can_Engrave={this.CanEngrave}"+
                 $"ToolType={this.Type}";
         }
     }
